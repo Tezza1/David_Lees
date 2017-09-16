@@ -1,0 +1,227 @@
+body {
+    font-family: "Khula", sans-serif;
+}
+
+/* ------------------------------------------------------
+NAV
+--------------------------------------------------------*/
+.navbar-brand {
+    color: rgb(0, 128, 128) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 200%;
+    margin-top: 0.5em;
+}
+
+.lang-flag {
+    max-height: 3em;
+}
+
+.nav-button {
+    border: 0;
+    background: none;
+    margin-top: 0.3em;
+    margin-left: 0.5em;
+}
+
+.svg-flag {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-button:hover, .nav-button:focus {
+    background-color: rgba(0, 128, 128, 0.2);
+}
+
+@media screen and (max-width: 770px){
+    .navbar-brand {
+        letter-spacing: 0;
+    }
+
+
+    .navbar-header {
+        float: left;
+    }
+
+    .navbar-right li button {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    .navbar-brand {
+        font-size: 160%;
+    }
+
+    .lang-flag {
+        max-height: 2.5em;
+    }
+}
+
+/* ------------------------------------------------------
+BANNER
+--------------------------------------------------------*/
+
+.jumbotron {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    /*margin-top: 7em;*/
+}
+
+.jumbo-cartoon {
+    margin-top: 7em;
+}
+
+.cartoon-pic {
+    margin: 0 auto
+}
+
+.headline {
+    border-bottom: 1px solid rgba(0, 128, 128, 0.3);
+    border-radius: 0 !important;
+    margin-bottom: 2em;
+}
+
+.headline h1 {
+    color: rgba(0, 128, 128, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+    .headline h1 {
+        font-size: 50px;
+    }
+}
+
+/* ------------------------------------------------------
+CONTENT
+--------------------------------------------------------*/
+h2 {
+    color: rgb(0, 128, 128);
+}
+
+.content-panel {
+    border: 1px solid rgb(0, 128, 128);
+}
+
+.content-panel .panel-heading {
+    border-bottom: 1px solid rgb(0, 128, 128);
+    background-color: rgba(0, 128, 128, 0.1);
+    font-weight: bold;
+    color: rgb(0, 128, 128);
+}
+
+.content-panel .panel-body {
+    color: rgb(0, 128, 128);
+    font-style: italic;
+}
+
+.divider {
+    border: 1px solid rgba(0, 128, 128, 0.3);
+}
+
+/* ------------------------------------------------------
+CONTENT
+--------------------------------------------------------*/
+.jpn-lang {
+    display: none;
+}
+
+/* ------------------------------------------------------
+CONTACT BUTTON
+--------------------------------------------------------*/
+.contact-button {
+    border: 0px;
+}
+
+.contact-button:hover  {
+    background-color: rgba(0, 128, 128, 0.1) !important;
+}
+
+/* ------------------------------------------------------
+MODAL
+--------------------------------------------------------*/
+.modal-title {
+    color: rgb(0, 128, 128);
+}
+
+.modal h4 {
+    color: rgba(0, 128, 128, 0.7);
+}
+
+.modal a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* ------------------------------------------------------
+FORM
+--------------------------------------------------------*/
+.btn-submit {
+    border: 1px solid rgb(0, 128, 128);
+    background-color: rgba(0, 128, 128, 0.2);
+    font-weight: bold;
+    color: rgb(0, 128, 128);
+}
+
+.btn-submit:hover {
+    background-color: rgba(0, 128, 128, 0.4);
+    border: 1px solid rgba(0, 128, 128, 0.7);
+    font-weight: bold;
+    color: rgb(0, 128, 128);
+}
+
+/* ------------------------------------------------------
+CLEAR FOOTER
+--------------------------------------------------------*/
+.clear-footer {
+    height: 10px;
+    margin-bottom: 100px;
+}
+
+/* ------------------------------------------------------
+TESTIMONIALS
+--------------------------------------------------------*/
+blockquote {
+    border-left: 3px solid  rgba(0, 128, 128, 0.3); 
+}
+
+.blockquote-reverse {
+    border-right: 3px solid  rgba(0, 128, 128, 0.3); 
+}
+
+.quote-footer {
+    border-top: none;
+}
+
+/* -------------------------------------------------------------
+LINKS
+---------------------------------------------------------------*/
+.thumbnail-block img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */ 
+    filter: grayscale(100%) 
+}
+
+/* ------------------------------------------------------
+FOOTER
+--------------------------------------------------------*/
+footer {
+    border-top: 1px solid rgba(0, 128, 128, 0.3);
+    background-color: rgb(255, 255, 255);
+}   
+
+.footer-link {
+    color: rgb(128, 128, 128);
+    text-decoration: underline;
+    float: left;
+    cursor:pointer;
+}
+
+.footer-link-right {
+    float: right;
+}
+
+
+
+
