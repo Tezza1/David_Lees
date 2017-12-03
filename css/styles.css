@@ -184,7 +184,8 @@ CLEAR FOOTER
 TESTIMONIALS
 --------------------------------------------------------*/
 blockquote {
-    border-left: 3px solid  rgba(0, 128, 128, 0.3); 
+    border-left: 3px solid  rgba(0, 128, 128, 0.3);
+    font-size: 100%; 
 }
 
 .blockquote-reverse {
